@@ -47,7 +47,7 @@
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_directory' ); ?>/formalize.css" />
+<!-- <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_directory' ); ?>/formalize.css" /> -->
 <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <!--[if lt IE 9]>
@@ -63,12 +63,13 @@
 <div id="page" class="hfeed">
 	<header id="branding" role="banner">
 		<hgroup>
-			<h1 id="site-title"><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php bloginfo( 'template_directory' ); ?>/images/911logo902.jpg" alt="September 11 Digital Archives"></a></h1>
+			<h1 id="site-title"><a href="<?php echo home_url( '../' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php bloginfo( 'template_directory' ); ?>/images/911logo902.jpg" alt="September 11 Digital Archives"></a></h1>
 		</hgroup>
-
+		<?php include (TEMPLATEPATH . '/searchform.php'); ?>
 		<nav id="access" role="navigation">
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #access -->
 	</header><!-- #branding -->
 
-	<div id="main">
+
+	

@@ -15,9 +15,8 @@
 
 get_header(); ?>
 
+	<div id="content" role="main">
 		<div id="primary">
-			<div id="content" role="main">
-
 			<?php if ( have_posts() ) : ?>
 
 				<?php toolbox_content_nav( 'nav-above' ); ?>
@@ -51,9 +50,8 @@ get_header(); ?>
 				</article><!-- #post-0 -->
 
 			<?php endif; ?>
+		</div><!--- #primary -->
 
-			</div><!-- #content -->
-		</div><!-- #primary -->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
