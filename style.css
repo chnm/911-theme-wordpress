@@ -227,6 +227,7 @@ article:last-of-type {
 	#site-title img {
 		height: 100px;
 		display: block;
+		max-width: 420px;
 		}
 
 #site-description {
