@@ -131,6 +131,9 @@ article {
 	padding-bottom:1.5em;
 	border-bottom: 0.07143em solid rgba(0, 0, 0, 0.2);
 	}
+article:last-of-type {
+	border-bottom:none;
+}
 /*	
 	article, #comments {
 		width: 480px;
@@ -154,6 +157,7 @@ article {
 	float:left;
 	text-align:center;
 	padding-bottom:1em;
+	margin-bottom:2em;
 	background-color:rgba(142,130,100,.2);
 }
 #content {
@@ -658,22 +662,19 @@ footer {
 	font-size:.8em;
 }
 #site-generator p {
-	margin-bottom:.5em;
-}
-#colophon {
-	padding: 20px 0 0;
+	margin:0 0 .5em;
 }
 
 #footer-nav ul {
-	font-weight: bold;
 	margin-bottom: 20px;
 	text-align: left;
+	padding-left:0;
 	}
 
 #footer-nav ul li {
 /*	border-right: 1px solid #012281;
 */	display: inline-block;
-	padding: 0 5px;
+	margin-right:10px;
 	}
 	
 	#footer-nav ul li:last-child {
