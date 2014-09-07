@@ -30,7 +30,7 @@ html {
 }
 body {
 	/* background: url('images/20.jpg'); */
-	background: url('../../../../themes/911/images/bg_small.jpg') no-repeat center top fixed;
+	background: url('../../../../themes/911/images/bg.jpg') no-repeat center top fixed;
 	background-size: cover;	
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -215,8 +215,13 @@ article:last-of-type {
 	float:left;
 	margin-bottom:1em;
 }
+hgroup {
+	margin-bottom:1.5em;
+	height:98px;
+}
 #site-title {
 	margin: 0;
+	padding:0;
 }
 
 #site-title a {
@@ -224,7 +229,6 @@ article:last-of-type {
 	}
 	
 	#site-title img {
-		height: 100px;
 		display: block;
 		max-width: 420px;
 		}
@@ -264,6 +268,7 @@ article:last-of-type {
 	text-align: center;
 	line-height: 38px;*/
 	margin-bottom: 0;
+	padding:0;
 }
 
 #access ul li {
