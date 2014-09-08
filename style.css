@@ -143,11 +143,11 @@ article:last-of-type {
 }
 #primary {
 	float: left;
-	width:75%;
-	padding-right:20px;
+	width:73%;
+	margin-right:30px;
 }
 #secondary {
-	width: 25%;
+	width: 22%;
 	float:right;
 	text-align:center;
 	padding-bottom:1em;
@@ -284,10 +284,13 @@ hgroup {
 	line-height: 24px;
 }		
 .entry-content img {
-	margin:5px 5px 10px 15px !important;
+	margin:5px 5px 5px 15px !important;
 	box-shadow: 0 3px 3px rgba(0,0,0,0.2);
 	-moz-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
 	-webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.2);
+}
+.entry-content img.alignleft {
+	margin: 5px 15px 5px 0 !important;
 }		
 .single-author .entry-meta .byline {
 	display: none;
