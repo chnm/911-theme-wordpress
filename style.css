@@ -278,7 +278,10 @@ hgroup {
 	.entry-meta:last-child {
 		margin-bottom: 0;
 		}
-		
+.entry-content {
+	font-size:15px;
+	line-height: 24px;
+}		
 .entry-content img {
 	margin:5px 5px 5px 15px !important;
 	box-shadow: 0 3px 3px rgba(0,0,0,0.2);
@@ -641,9 +644,6 @@ footer {
 		text-align:center;
 		padding-bottom:1em;
 		background-color:rgba(142,130,100,.2);
-	}
-	#secondary a {
-
 	}
 
 }
