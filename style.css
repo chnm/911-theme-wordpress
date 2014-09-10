@@ -139,6 +139,10 @@ article:last-of-type {
 	padding: 30px;
 	background-color: rgba(255,255,255,.7);
 	overflow: auto;
+}
+#content {
+	width:100%;
+	float:left;
 
 }
 #primary {
@@ -155,16 +159,12 @@ article:last-of-type {
 	background-color:rgba(142,130,100,.2);
 	margin-top:1em;
 }
-#content {
-	width:100%;
-	float:left;
 
-}
-#main .widget-area {
+/*#main .widget-area {
 	float: right;
 	overflow: hidden;
 	width: 260px;
-}
+}*/
 #colophon {
 	clear: both;
 	display: block;
@@ -569,6 +569,9 @@ button,
 article.comment {
 	display: block;
 }
+article footer {
+	border:none;
+}
 #respond input[type=text] {
 	display: block;
 	width: 60%;
@@ -645,12 +648,19 @@ footer {
 	#site-title img {
 		width: 100%;
 	}
-	#primary {
-		float: left;
+	#page {
 		width:100%;
+		float:left;
+		margin:0;
+	}
+	#primary {
+		width:100%;
+		float: left;
+
 	}
 	#secondary {
 		width: 100%;
+		float:left;
 		text-align:center;
 		padding-bottom:1em;
 		background-color:rgba(142,130,100,.2);
@@ -660,6 +670,9 @@ footer {
 
 }
 @media screen and (max-width: 500px){
+	#access {
+		text-align:left;
+	}
 	.entry-content img{
 		display: block;
 		float:none;
@@ -667,5 +680,13 @@ footer {
 	}
 	.entry-content p {
 		clear:both!important;
+	}
+	#searchform input[type=text]{
+		width:50%;
+		float:left;
+	}
+	#searchform input[type=submit]{
+		width:50%;
+		float:left;
 	}
 }
