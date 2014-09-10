@@ -671,6 +671,9 @@ footer {
 	#access {
 		text-align:left;
 	}
+	#branding hgroup {
+		margin-bottom:5px;
+	}
 	.entry-content img{
 		display: block;
 		float:none;

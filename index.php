@@ -34,7 +34,7 @@ get_header(); ?>
 
 				<?php endwhile; ?>
 
-				<?php //toolbox_content_nav( 'nav-below' ); ?>
+				<?php toolbox_content_nav( 'nav-below' ); ?>
 
 			<?php else : ?>
 
