@@ -668,6 +668,10 @@ footer {
 
 }
 @media screen and (max-width: 500px){
+	#page {
+		padding-left: 1em;
+    	padding-right: 1em;
+	}
 	#access {
 		text-align:left;
 	}
