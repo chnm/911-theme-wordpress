@@ -135,7 +135,7 @@ article:last-of-type {
 #page {
 	max-width: 65em;
 	display: block;
-	margin: auto;
+	margin: 0 auto;
 	padding: 30px;
 	background-color: rgba(255,255,255,.7);
 	overflow: auto;
@@ -160,11 +160,6 @@ article:last-of-type {
 	margin-top:1em;
 }
 
-/*#main .widget-area {
-	float: right;
-	overflow: hidden;
-	width: 260px;
-}*/
 #colophon {
 	clear: both;
 	display: block;
@@ -317,6 +312,7 @@ hgroup {
 }
 #nav-below {
 	margin: 1em 0 0;
+	display:none !important;
 }
 .page-link {
 	clear: both;
@@ -645,17 +641,19 @@ footer {
 ------------------------------------------------------------ */
 
 @media screen and (max-width:800px){
-	#site-title img {
-		width: 100%;
-	}
 	#page {
 		width:100%;
 		float:left;
-		margin:0;
+		margin:0 !important;
+	}
+	#site-title img {
+		width: 100%;
+		margin:0 auto;
 	}
 	#primary {
 		width:100%;
 		float: left;
+		margin:0!important;
 
 	}
 	#secondary {
