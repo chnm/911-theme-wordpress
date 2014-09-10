@@ -137,7 +137,7 @@ article:last-of-type {
 	display: block;
 	margin: 0 auto;
 	padding: 30px;
-	background-color: rgba(255,255,255,.4);
+	background-color: rgba(255,255,255,.3);
 	overflow: auto;
 }
 #content {
@@ -671,6 +671,7 @@ footer {
 	#page {
 		padding-left: 1em;
     	padding-right: 1em;
+    	background-color: rgba(255,255,255,.5)
 	}
 	#access {
 		text-align:left;
