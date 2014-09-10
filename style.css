@@ -363,6 +363,9 @@ hgroup {
 	display: block;
 	padding: 1em;
 }
+.post .nocomments {
+	display: none;
+}
 
 /* Image Attachments */
 .image-attachment div.entry-meta {

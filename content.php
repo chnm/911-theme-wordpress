@@ -49,11 +49,11 @@
 		<?php if ( comments_open() || ( '0' != get_comments_number() && ! comments_open() ) ) : ?>
 		<span class="comments-link"><?php comments_popup_link( __( 'Leave a comment', 'toolbox' ), __( '1 Comment', 'toolbox' ), __( '% Comments', 'toolbox' ) ); ?></span>
 		<span class="sep"> | </span> 
+		<?php endif; ?>
 		<?php if ( 'post' == get_post_type() ) : ?>
 			<?php toolbox_posted_on(); ?>
 		<!-- .entry-meta -->
-		<?php endif; ?>
-
+		
 		<?php endif; ?>
 		
 		<?php edit_post_link( __( 'Edit', 'toolbox' ), '| <span class="edit-link">', '</span>' ); ?>
