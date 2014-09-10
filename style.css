@@ -641,6 +641,9 @@ footer {
 ------------------------------------------------------------ */
 
 @media screen and (max-width:800px){
+	body {
+		background: url('../../../../themes/911/images/bg_small.jpg') no-repeat center top fixed;
+	}
 	#page {
 		width:100%;
 		float:left;
