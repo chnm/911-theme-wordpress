@@ -16,7 +16,7 @@
 	</nav>
 	<div id="site-generator">
 		<?php do_action( 'toolbox_credits' ); ?>
-		<p>Copyright &copy; 2002-2011, <a href="http://chnm.gmu.edu" target="external">Center for History and New Media</a>  and <a href="http://www.ashp.cuny.edu" target="external">American Social History Project/Center for Media and Learning.</a></p>
+		<p>Copyright &copy; 2002-2014, <a href="http://chnm.gmu.edu" target="external">Roy Rosenzweig Center for History and New Media</a> and <a href="http://www.ashp.cuny.edu" target="external">American Social History Project/Center for Media and Learning</a>.</p>
 		<p><a href="<?php echo esc_url( __( 'http://wordpress.org/', 'toolbox' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'toolbox' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'toolbox' ), 'WordPress' ); ?></a></p>
 	</div>
 	<? /*php wp_footer(); */?>
