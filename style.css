@@ -207,7 +207,6 @@ article:last-of-type {
 }
 hgroup {
 	margin-bottom:1.5em;
-	height:98px;
 }
 #site-title {
 	margin: 0;
@@ -220,7 +219,8 @@ hgroup {
 	
 	#site-title img {
 		display: block;
-		max-width: 420px;
+		max-width: 100%;
+		width: 100%;
 		}
 
 #site-description {

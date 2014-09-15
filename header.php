@@ -63,7 +63,7 @@
 <div id="page" class="hfeed">
 	<header id="branding" role="banner">
 		<hgroup>
-			<h1 id="site-title"><a href="<?php echo home_url( '../' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php bloginfo( 'template_directory' ); ?>/images/911logo902.jpg" alt="September 11 Digital Archives"></a></h1>
+			<h1 id="site-title"><a href="<?php echo home_url( '../' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img src="<?php bloginfo( 'template_directory' ); ?>/images/911logonew.png" alt="September 11 Digital Archives"></a></h1>
 		</hgroup>
 		<?php include (TEMPLATEPATH . '/searchform.php'); ?>
 		<nav id="access" role="navigation">
