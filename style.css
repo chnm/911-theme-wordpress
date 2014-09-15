@@ -137,7 +137,7 @@ article:last-of-type {
 	display: block;
 	margin: 0 auto;
 	padding: 30px;
-	background-color: rgba(255,255,255,.3);
+	background-color: rgba(255,255,255,.4);
 	overflow: auto;
 }
 #content {
@@ -148,10 +148,10 @@ article:last-of-type {
 #primary {
 	float: left;
 	width:73%;
-	margin-right:30px;
+	margin-right:3%;
 }
 #secondary {
-	width: 22%;
+	width: 24%;
 	float:right;
 	text-align:center;
 	padding-bottom:1em;
@@ -640,35 +640,13 @@ footer {
 /* = Mobile
 ------------------------------------------------------------ */
 
-@media screen and (max-width:800px){
+@media screen and (max-width:500px){
+	body {
+		height:100%;
+	}
 	#page {
 		width:100%;
 		float:left;
-		margin:0 !important;
-	}
-	#site-title img {
-		width: 100%;
-		margin:0 auto;
-	}
-	#primary {
-		width:100%;
-		float: left;
-		margin:0!important;
-
-	}
-	#secondary {
-		width: 100%;
-		float:left;
-		text-align:center;
-		padding-bottom:1em;
-		background-color:rgba(142,130,100,.2);
-		margin-top:0;
-	}
-
-
-}
-@media screen and (max-width: 500px){
-	#page {
 		padding-left: 1em;
     	padding-right: 1em;
 	}
@@ -677,6 +655,18 @@ footer {
 	}
 	#branding hgroup {
 		margin-bottom:5px;
+	}
+	#primary {
+		width:100%;
+		float:left;
+		margin:0!important;
+	}
+	#secondary {
+		width: 100%;
+		float:left;
+		text-align: center;
+		padding-bottom:1em;
+		margin-top:0;
 	}
 	.entry-content img{
 		display: block;
